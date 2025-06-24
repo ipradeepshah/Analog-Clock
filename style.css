@@ -97,3 +97,74 @@ body{
     position: absolute;
 
 }
+/*minute hand styling*/
+.minute-hand-wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 0, 0.233);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+
+}
+.minute-hand{
+    position: relative;
+
+}
+
+.minute-hand .hand{
+    background-color: #404b69;
+    width: 5px;
+    height: 200px;
+    position: absolute;
+    left: 198px;
+}
+
+/*hour hand styling*/
+.hour-hand-wrapper{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 0, 0, 0.233);
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    border-radius: 50%;
+
+}
+.hour-hand{
+    position: relative;
+
+}
+
+.hour-hand .hand{
+    background-color: #404b69;
+    width: 8px;
+    height: 128px;
+    position: absolute;
+    left: 126px;
+}
+
+/*second hand styling*/
+.second-hand-wrapper{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 0, 0, 0.233);
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    border-radius: 50%;
+
+}
+.second-hand{
+    position: relative;
+
+}
+
+.second-hand .hand{
+    background-color: #ff0000;
+    width: 2px;
+    height: 175px;
+    position: absolute;
+    left: 174px;
+}
