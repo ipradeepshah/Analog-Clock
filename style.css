@@ -101,7 +101,7 @@ body{
 .minute-hand-wrapper{
     width: 400px;
     height: 400px;
-    background-color: rgba(255, 255, 0, 0.233);
+   /* background-color: rgba(255, 255, 0, 0.233); */
     position: absolute;
     top: 50px;
     left: 50px;
@@ -125,7 +125,7 @@ body{
 .hour-hand-wrapper{
     width: 250px;
     height: 250px;
-    background-color: rgba(255, 0, 0, 0.233);
+   /* background-color: rgba(255, 0, 0, 0.233); */
     position: absolute;
     top: 120px;
     left: 120px;
@@ -140,16 +140,16 @@ body{
 .hour-hand .hand{
     background-color: #404b69;
     width: 8px;
-    height: 128px;
+    height: 129px;
     position: absolute;
-    left: 126px;
+    left: 117px;
 }
 
 /*second hand styling*/
 .second-hand-wrapper{
     width: 350px;
     height: 350px;
-    background-color: rgba(255, 0, 0, 0.233);
+   /* background-color: rgba(255, 0, 0, 0.233); */
     position: absolute;
     top: 75px;
     left: 75px;
