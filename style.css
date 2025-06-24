@@ -88,3 +88,12 @@ body{
     left: 235px;
     
 }
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    top: 90px;
+    left: 45.5%;
+    position: absolute;
+
+}
